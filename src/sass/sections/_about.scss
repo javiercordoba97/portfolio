@@ -49,12 +49,21 @@
 
       &-text {
         text-align: left;
-
         @include respond(tab-port) {
           text-align: left;
         }
         @include respond(tab-port-sm) {
           text-align: center;
+        }
+        &__text,
+        i{
+          font-size: 3.5rem;
+          padding: 10px;
+              &:hover {
+      color:#FFD700;
+      transform: translateY(-2px);
+      transition: color 0.8s ease;
+    }
         }
 
         &--important {
