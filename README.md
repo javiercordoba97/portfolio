@@ -173,8 +173,16 @@ Go to `/src/index.html` and put your information, there are 5 sections:
             <a
               rel="noreferrer"
               target="_blank"
-              class="cta-btn cta-btn--resume"
-              href="assets/resume.pdf"
+              class="cta-btn cta-btn--english"
+              href="assets/cveng.pdf"
+            >
+              View Resume
+            </a>
+                        <a
+              rel="noreferrer"
+              target="_blank"
+              class="cta-btn cta-btn--spanish"
+              href="assets/cvesp.pdf"
             >
               View Resume
             </a>
